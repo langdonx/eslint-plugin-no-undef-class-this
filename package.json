@@ -1,0 +1,23 @@
+{
+  "name": "eslint-plugin-no-undef-class-this",
+  "version": "0.0.1",
+  "description": "Properties referenced on this inside of a class should be defined ahead of time.",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Langdon Oliver",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "node node_modules/eslint/bin/eslint.js .",
+    "test": "node node_modules/mocha/bin/mocha test --recursive"
+  },
+  "dependencies": {
+    "eslint": "^5.6.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "mocha": "^5.2.0"
+  }
+}
