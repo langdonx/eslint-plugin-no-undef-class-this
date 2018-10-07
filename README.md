@@ -1,6 +1,6 @@
 # eslint-plugin-no-undef-class-this
 
-A single rule, `no-undef-class-this`, [described here](docs/rules/no-undef-class-this.md).
+A single rule, `no-undef-class-this`, [described here](https://github.com/langdonx/eslint-plugin-no-undef-class-this/blob/master/docs/rules/no-undef-class-this.md).
 
 ## Installation
 

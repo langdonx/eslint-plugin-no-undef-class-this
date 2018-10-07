@@ -1,13 +1,7 @@
 {
   "name": "eslint-plugin-no-undef-class-this",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Properties referenced on this inside of a class should be defined ahead of time.",
-  "keywords": [
-    "eslint",
-    "eslintplugin",
-    "eslint-plugin"
-  ],
-  "author": "Langdon Oliver",
   "main": "lib/index.js",
   "scripts": {
     "lint": "node node_modules/eslint/bin/eslint.js .",
@@ -19,5 +13,19 @@
   "devDependencies": {
     "babel-eslint": "^10.0.1",
     "mocha": "^5.2.0"
-  }
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/langdonx/eslint-plugin-no-undef-class-this.git"
+  },
+  "author": "Langdon Oliver <langdon@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/langdonx/eslint-plugin-no-undef-class-this/issues"
+  },
+  "homepage": "https://github.com/langdonx/eslint-plugin-no-undef-class-this#readme"
 }
